@@ -34,9 +34,9 @@ const Modify = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         dispatch(modifyPost(post))
-        setPost(postInitData)
+        //setPost(postInitData)
         setIsPostModified(true)
-        setTimeout(() => setIsPostModified(false), 2000)
+        setTimeout(() => setIsPostModified(false), 1000)
     }
 
     return (
