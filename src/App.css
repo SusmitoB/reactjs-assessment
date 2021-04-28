@@ -44,6 +44,7 @@ body {
 
 .posts, .createpost, .modifypost, .error{
   text-align: center;
+  
   margin: 0px 50px 10px 50px;
 }
 
