@@ -3,7 +3,7 @@ import React from 'react'
 const Error = () => {
     return (
         <div className="error">
-            Error occured
+            Wrong URL!!! Please check the url.
         </div>
     )
 }
