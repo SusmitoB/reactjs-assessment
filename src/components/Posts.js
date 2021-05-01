@@ -55,7 +55,7 @@ const Posts = () => {
                             </td>
 							<td>
 								<Link style={{display:"block", textAlign:"center"}} to={`/modifypost/${id}`}>
-									<strong>Codify</strong>
+									<strong>Modify</strong>
                                 </Link>
 							</td>
                         </tr>
