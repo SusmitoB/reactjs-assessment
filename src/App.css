@@ -77,9 +77,20 @@ thead{
 }
 
 .error{
-	margin-right: 50px;
-	margin-left: 0px;
+  margin-right: 50px;
+  margin-left: 0px;
   background-image: url('./artifacts/6M513.png');
   min-width: 100vw;
   min-height: 100vh;
+}
+
+tbody td:last-child{
+  background-color: grey;
+  padding: 0px;
+}
+
+td a{
+  text-decoration: none;
+  color: white;
+  padding: 50px 5px;
 }

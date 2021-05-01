@@ -38,7 +38,7 @@ const Posts = () => {
                     <tr>
                         <th><h2>UserID</h2></th>
                         <th><h2>Title</h2></th>
-                        <th><h2>Body</h2></th>
+                        <th colspan="2"><h2>Body</h2></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,10 +52,12 @@ const Posts = () => {
                             </td>
                             <td>
                                 <h3 style={{display:"block"}}>{body}</h3>
-								<Link style={{display:"block", textAlign:"center"}} to={`/modifypost/${id}`}>
-                                    <button>Modify</button>
-                                </Link>
                             </td>
+							<td className="modify">
+								<Link style={{display:"block", textAlign:"center"}} to={`/modifypost/${id}`}>
+									<strong>Modify</strong>
+                                </Link>
+							</td>
                         </tr>
                     })}
                 </tbody>
