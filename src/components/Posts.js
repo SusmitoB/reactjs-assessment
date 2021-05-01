@@ -53,7 +53,7 @@ const Posts = () => {
                             <td>
                                 <h3 style={{display:"block"}}>{body}</h3>
                             </td>
-							<td className="modify">
+							<td>
 								<Link style={{display:"block", textAlign:"center"}} to={`/modifypost/${id}`}>
 									<strong>Modify</strong>
                                 </Link>
