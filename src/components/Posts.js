@@ -39,6 +39,7 @@ const Posts = () => {
                         <th><h2>UserID</h2></th>
                         <th><h2>Title</h2></th>
                         <th colspan="2"><h2>Body</h2></th>
+                        
                     </tr>
                 </thead>
                 <tbody>
